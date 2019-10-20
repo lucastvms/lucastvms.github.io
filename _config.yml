@@ -117,10 +117,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:lucas.tvms@gmail.com
+      # url: mailto:lucas.tvms@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://lucastvms.github.io"
+      # url: "https://lucastvms.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -172,7 +172,6 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
-  - assets/images
   - Capfile
   - CHANGELOG
   - config
