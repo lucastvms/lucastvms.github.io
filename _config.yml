@@ -12,10 +12,10 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default, air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default, air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "pt-BR" #en-US
 title                    : "Teaching Classes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -112,7 +112,7 @@ author:
   bio              : "I’m a Computer Science student at the Federal University of Alagoas who thinks it’s incredible 
   creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless 
   potential in a lot of areas."
-  location         : "Brazil"
+  location         : "Brazil, Maceió-Alagoas"
   email            : "lucas.tvms@gmail.com"
   links:
     - label: "Email"
