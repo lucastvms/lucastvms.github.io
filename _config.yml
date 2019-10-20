@@ -114,7 +114,6 @@ author:
   creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless
   potential in a lot of areas."
   location         : "Brazil, Maceió-Alagoas"
-  url: "https://www.google.com"
   email            : "lucas.tvms@gmail.com"
   links:
     - label: "Email"
@@ -157,6 +156,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "LinkedIn" # "Website"
+      icon: "fab fa-linkedin" # icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/lucas-tvms/"
 
 # Reading Files
 include:
