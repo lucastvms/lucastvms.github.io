@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /machine-learning/
+permalink: /data-structure/
 title: "Data Structure Posts By Tags"
 author_profile: true
 header:
