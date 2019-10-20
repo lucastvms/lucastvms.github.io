@@ -1,1 +1,11 @@
+title: Teaching Classes
+author: lucastvms
+email: lucas.tvms@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A simple site where I put the content of my teaching classes.
+# social links
+twitter_username: [Twitter](https://twitter.com/lucas_tvms)
+github_username:  [GitHub](https://github.com/lucastvms)
+
+show_excerpts: true # set to false to remove excerpts on the homepage
 theme: jekyll-theme-dinky
