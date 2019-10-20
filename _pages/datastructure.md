@@ -1,11 +1,11 @@
-___
+---
 layout: archive
 permalink: /data-structure/
 title: "Data Structure Posts By Tags"
 author_profile: true
 header:
 	image: "/assets/images/classification-of-data-structure.png"
-___
+---
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
