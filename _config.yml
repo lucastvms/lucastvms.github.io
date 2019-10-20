@@ -110,8 +110,8 @@ analytics:
 author:
   name             : "Lucas Vieira"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I’m a Computer Science student at the Federal University of Alagoas who thinks it’s incredible 
-  creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless 
+  bio              : "I’m a Computer Science student at the Federal University of Alagoas who thinks it’s incredible
+  creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless
   potential in a lot of areas."
   location         : "Brazil, Maceió-Alagoas"
   email            : "lucas.tvms@gmail.com"
@@ -120,7 +120,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:lucas.tvms@gmail.com"
     - label: "LinkedIn" # "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fab fa-linkedin" #icon: "fas fa-fw fa-link"
       url: "https://www.linkedin.com/in/lucas-tvms/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
