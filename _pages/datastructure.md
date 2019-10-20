@@ -4,7 +4,7 @@ permalink: /data-structure/
 title: "Data Structure Posts by Tags"
 author_profile: true
 header:
-  image: "/assets/images/bio-photo.png"
+  image: "/assets/images/bio-photo.jpg"
 ---
 
 {% include base_path %}
