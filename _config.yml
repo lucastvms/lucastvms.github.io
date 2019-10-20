@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "dark" # "default, air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "pt-BR" #en-US
+locale                   : "en-US"
 title                    : "Teaching Classes"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Lucas Vieira"
-  avatar           : "/assets/images/perfil.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I’m a Computer Science student at the Federal University of Alagoas who thinks it’s incredible 
   creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless 
   potential in a lot of areas."
@@ -118,9 +118,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:lucas.tvms@gmail.com
-    - label: "Website"
+    - label: "LinkedIn" # "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://lucastvms.github.io"
+      url: "https://www.linkedin.com/in/lucas-tvms/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
