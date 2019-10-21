@@ -2,7 +2,7 @@
 layout: archive
 permalink: /data-structure/
 title: "Data Structure Posts"
-# author_profile: true
+author_profile: false
 ---
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/classification.png)
 
