@@ -11,13 +11,20 @@ mathjax: "true"
 A **Data Structure** (DS) is a way of organizing data so that it can be used effectively.
 
 ## Why Data Structures?
-They are essential ingredients in creating fast and powerful algorithms.
++ They are essential ingredients in creating fast and powerful algorithms.
++ They help manage and organize data.
++ They make code cleaner and easier to understand.
 
-They help manage and organize data.
+It makes the difference between a OK product and an outstanding one.
 
-They make code cleaner and easier to understand.
+## Abstract Data Types vs. Data Structures
 
+### Abstract Data Type
+An **Abstract Data Type** (ADT) is an abstraction of a data structure which provides only the interface to which a data structure must adhere to.
 
+The interface dos not give any specific details about how something should be implemented or in what programming language.
+
+It remembers a mode of transportation. If we want to go from point A to point B we can do it many ways (DS): biking, walking by car. In the end, to mask the process (ADT) we just put in the points A and B.
 
 ### H3 Heading
 
