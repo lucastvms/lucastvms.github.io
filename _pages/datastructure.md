@@ -6,11 +6,11 @@ author_profile: true
 header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
-
+<h2>teste e</h2>
 <ul class="posts">
 {% assign count = 0 %}
 {% for post in site.posts %}
-  {% if post.tags contains 'data' %}
+  {% if post.tags contains 'data' or 'structure' %}
     {% if count < 20 %}
       {% assign count = count|plus:1 %}
       <div class="post_info">
