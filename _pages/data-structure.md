@@ -9,7 +9,7 @@ author_profile: true
 {% for post in site.categories['post' or 'data structure'] %}
   {% include archive-single.html %}
 {% endfor %}
-b
+c
 
 <!--
 <ul class="posts">
