@@ -1,5 +1,5 @@
 ---
-layout: "archives"
+layout: "archive"
 permalink: /data-structure/
 title: "Data Structure Posts by Tags"
 author_profile: true
