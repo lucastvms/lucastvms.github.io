@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Tags
-comments: false
+layout: home
+author_profile: true
+header:
+  image: "/assets/images/index-header-image.jpg"
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
