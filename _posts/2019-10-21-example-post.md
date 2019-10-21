@@ -1,7 +1,7 @@
 ---
 title: "Example of a post"
 date: 2019-10-21
-tages: [post, example, structure]
+tages: [post, example, data]
 header:
   image: "/assets/images/example/post-it.jpg"
 
