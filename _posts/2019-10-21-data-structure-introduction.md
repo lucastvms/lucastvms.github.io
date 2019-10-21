@@ -29,3 +29,6 @@ It remember a mode of transportation (vehicle). If we want to go from point A to
 *Examples:*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/adt-ds-examples.png)
 *Source:* [freeCodeCamp.org](https://www.freecodecamp.org/)
+
+I really hope that after reading more in this category you understand this demonstration of a Google Coding/Engineering Interview.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XKu_SEDAykw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
