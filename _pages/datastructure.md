@@ -1,15 +1,13 @@
 ---
-layout: archive
+layout: categories
 permalink: /data-structure/
 title: "Data Structure Posts by Tags"
 author_profile: true
 header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
-{% for post in site.posts %}
-  {% if post.categories contains 'data structure' %}
-    {% include archive-single.html %}
-  {% endif %}
+{% for post in site.categories['post'] %}
+  {% include archive-single.html %}
 {% endfor %}
 
 <!--
