@@ -110,54 +110,12 @@ analytics:
 author:
   name             : "Lucas Vieira"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Im a Computer Science student at the Federal University of Alagoas who thinks it’s incredible creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless potential in a lot of areas."
+  bio              : "I’m a Computer Science student at the Federal University of Alagoas who thinks it’s incredible
+  creating efficient programs and is amazed on how computing is making our lives better and it yet has limitless
+  potential in a lot of areas."
   location         : "Brazil, Maceio-Alagoas"
   email            : "lucas.tvms@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:lucas.tvms@gmail.com"
-    - label: "LinkedIn" # "Website"
-      icon: "fab fa-linkedin" # icon: "fas fa-fw fa-link"
-      url: "https://www.linkedin.com/in/lucas-tvms/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lucastvms"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lucastvms"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-    - label: "LinkedIn" # "Website"
-      icon: "fab fa-linkedin" # icon: "fas fa-fw fa-link"
-      url: "https://www.linkedin.com/in/lucas-tvms/"
-
+  
 # Reading Files
 include:
   - .htaccess
