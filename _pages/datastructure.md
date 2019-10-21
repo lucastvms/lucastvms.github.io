@@ -1,6 +1,7 @@
 ---
-
+permalink: /data-structure/
 ---
+
 
 {% include group-by-array.html collection=site.posts field='tags' %}
 
