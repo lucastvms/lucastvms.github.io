@@ -6,7 +6,7 @@ author_profile: true
 header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
-<h2>teste 2</h2>
+<h2>teste e</h2>
 <ul class="posts">
 {% assign count = 0 %}
 {% for post in site.posts %}
