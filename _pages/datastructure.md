@@ -8,6 +8,7 @@ header:
 ---
 <h2>teste 3</h2>
 
+{% include base_path %}
 {% include group-by-array.html collection=site.posts field='tags' %}
 
 <ul>
