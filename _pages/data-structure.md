@@ -6,10 +6,10 @@ author_profile: true
 ---
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/classification.png)
 
-{% for post in site.categories['post'] %}
+{% for post in site.categories['data structure', 'post'] %}
   {% include archive-single.html %}
 {% endfor %}
-a
+b
 
 <!--
 <ul class="posts">
