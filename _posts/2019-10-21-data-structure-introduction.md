@@ -24,11 +24,11 @@ An **Abstract Data Type** (ADT) is an abstraction of a data structure which prov
 
 The interface dos not give any specific details about how something should be implemented or in what programming language.
 
-It remembers a mode of transportation. If we want to go from point A to point B we can do it many ways (DS): biking, walking by car. In the end, to mask the process (ADT) we just put in the points A and B.
+It remember a mode of transportation (vehicle). If we want to go from point A to point B we can do it many ways: biking, walking, by car (DS). In the end, to mask some details, we just put in the points A and B and use the vehicle (ADT).
 
+*Examples:*
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/adt-ds-examples.jpg)
 
-
-<span style="color:blue">some *This is Blue italic.* text</span>
 ### H3 Heading
 
 Here's some basic text
