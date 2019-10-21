@@ -6,7 +6,7 @@ author_profile: true
 header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
-{% for post in site.categories['data'] %}
+{% for post in site.categories['data structure'] %}
   {% include archive-single.html %}
 {% endfor %}
 
