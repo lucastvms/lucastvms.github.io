@@ -5,4 +5,11 @@ header:
   image: "/assets/images/index-header-image.jpg"
 ---
 
-teste b
+teste c
+
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
