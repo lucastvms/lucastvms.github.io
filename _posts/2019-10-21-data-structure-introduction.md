@@ -26,6 +26,9 @@ The interface dos not give any specific details about how something should be im
 
 It remembers a mode of transportation. If we want to go from point A to point B we can do it many ways (DS): biking, walking by car. In the end, to mask the process (ADT) we just put in the points A and B.
 
+
+
+<span style="color:blue">some *This is Blue italic.* text</span>
 ### H3 Heading
 
 Here's some basic text
