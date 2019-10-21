@@ -6,20 +6,23 @@ author_profile: true
 header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
-<h2>teste 2</h2>
-<ul class="posts">
-{% assign count = 0 %}
-{% for post in site.posts %}
-  {% if post.tags contains 'data' or 'structure' %}
-    {% if count < 20 %}
-      {% assign count = count|plus:1 %}
-      <div class="post_info">
+<h2>teste 3</h2>
+
+{% include group-by-array.html collection=site.posts field='tags' %}
+
+<ul>
+  {% for tag in group_names %}
+    {% assign posts = group_items[forloop.index0] %}
+
+    <li>
+      <h2>{{ tag }}</h2>
+      <ul>
+        {% for post in posts %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+          <a href='{{ site.baseurl }}{{ post.url }}'>{{ post.title }}</a>
         </li>
-      </div>
-    {% endif %}
-  {% endif %}
-{% endfor %}
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
 </ul>
