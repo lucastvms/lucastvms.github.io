@@ -4,7 +4,7 @@ permalink: /data-structure/
 title: "Data Structure Posts"
 author_profile: true
 ---
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/classification.png)"
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/classification.png)
 
 {% for post in site.categories['data structure'] %}
   {% include archive-single.html %}
