@@ -10,7 +10,7 @@ header:
 <ul class="posts">
 {% assign count = 0 %}
 {% for post in site.posts %}
-  {% if site.tags contains 'post' %}
+  {% if true==true %}
     {% if count < 20 %}
       {% assign count = count|plus:1 %}
       <div class="post_info">
