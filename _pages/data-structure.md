@@ -11,8 +11,8 @@ author_profile: true
 {% endfor %}
 
 <!--
-{% for post in site.categories['post' and 'data structure'] %}
-{% for post in site.categories['post' or 'data structure'] %}
+# {% for post in site.categories['post' and 'data structure'] %}
+# {% for post in site.categories['post' or 'data structure'] %}
 
 <ul class="posts">
 {% assign count = 0 %}
