@@ -52,10 +52,10 @@ head(df)
 Here's some inline code `x+y`.
 
 Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/example/example.jpg" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/example/post-it.jpg" alt="linearly separable data">
 
 Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/post-it.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/example/post-it.jpg)
 
 Here's some math:
 
