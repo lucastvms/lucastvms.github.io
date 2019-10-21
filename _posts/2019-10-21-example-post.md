@@ -1,9 +1,8 @@
 ---
 title: "Example of a post"
 date: 2019-10-21
-tags:
-  - post
-category: [data structure]
+tags: [post]
+categories: [data structure]
 header:
   image: "/assets/images/example/post-it.jpg"
 excerpt: "Example Post"
