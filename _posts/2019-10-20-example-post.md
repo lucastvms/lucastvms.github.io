@@ -21,7 +21,7 @@ And here's some *italics*
 
 Here's some **bold** text.
 
-What about a [link] (https://github.com/lucastvms)
+What about a [link](https://github.com/lucastvms)
 
 Here's  bulleted list:
 * First item
