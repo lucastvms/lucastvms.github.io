@@ -7,7 +7,6 @@ header:
 
 excerpt: "Example Post"
 mathjax: "true"
-
 ---
 
 # H1 Heading
