@@ -2,9 +2,9 @@
 title: "Example of a post"
 date: 2019-10-21
 tages: [post, example, data]
+category: [data structure]
 header:
   image: "/assets/images/example/post-it.jpg"
-
 excerpt: "Example Post"
 mathjax: "true"
 ---
