@@ -7,13 +7,19 @@ header:
   image: "/assets/images/classification-of-data-structure.png"
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
-
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-    <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+<ul class="posts">
+{% assign count = 0 %}
+{% for post in site.posts %}
+  {% if post.tags contains 'data' %}
+    {% if count < 20 %}
+      {% assign count = count|plus:1 %}
+      <div class="post_info">
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+        </li>
+      </div>
+    {% endif %}
+  {% endif %}
 {% endfor %}
+</ul>
