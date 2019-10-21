@@ -8,7 +8,6 @@ header:
 ---
 novo
 
-<ul class="posts">
 {% assign count = 0 %}
 {% for post in site.posts %}
   {% if post.categories contains 'j', 'data' %}
