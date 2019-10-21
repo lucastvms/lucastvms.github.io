@@ -6,10 +6,14 @@ categories: [data structure]
 excerpt: "Talking about what is data structure, its impacts and principles"
 mathjax: "true"
 ---
+## What is a Data Structure?
+A **Data Structure** (DS) is a way of organizing data so that it can be used effectively.
 
-# H1 Heading
+## Why Data Structures?
+They are essential ingredients in creating fast and powerful algorithms.
+They help manage and organize data.
+They make code cleaner and easier to understand.
 
-## H2 Heading
 
 ### H3 Heading
 
