@@ -27,7 +27,7 @@ The interface dos not give any specific details about how something should be im
 It remember a mode of transportation (vehicle). If we want to go from point A to point B we can do it many ways: biking, walking, by car (DS). In the end, to mask some details, we just put in the points A and B and use the vehicle (ADT).
 
 *Examples:*
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/adt-ds-examples.jpg)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-structure/adt-ds-examples.png)
 
 ### H3 Heading
 
