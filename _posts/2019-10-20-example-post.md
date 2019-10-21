@@ -2,7 +2,7 @@
 title: "Example of a post"
 date: 2019-10-21
 tags: [post]
-categories: [post, data structure]
+categories: [post]
 excerpt: "Example Post"
 mathjax: "true"
 ---
