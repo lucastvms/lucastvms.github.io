@@ -8,7 +8,7 @@ header:
 ---
 
 {% for post in site.posts %}
-  {% if post.tags contains 'post' %}
+  {% if post.categories contains 'data' %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
