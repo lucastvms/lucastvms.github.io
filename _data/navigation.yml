@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Data Analysis"
+    url: /data-analysis/
   - title: "Data Structure"
     url: /data-structure/
   - title: "About" # "Quick-Start Guide"
