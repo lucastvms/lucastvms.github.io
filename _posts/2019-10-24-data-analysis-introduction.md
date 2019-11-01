@@ -17,3 +17,5 @@ Business intelligence covers the data analysis that run heavely on aggregation, 
 
 *Steps of Data Analysis (Next Post):*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-analysis/steps.png)
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-analysis/IC.ipynb)
