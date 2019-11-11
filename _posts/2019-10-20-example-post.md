@@ -67,8 +67,8 @@ Do It Live
 
 ## Unordered Lists (Nested)
 
-  * List item one 
-      * List item one 
+  * List item one
+      * List item one
           * List item one
           * List item two
           * List item three
@@ -82,8 +82,8 @@ Do It Live
 
 ## Ordered List (Nested)
 
-  1. List item one 
-      1. List item one 
+  1. List item one
+      1. List item one
           1. List item one
           2. List item two
           3. List item three
@@ -241,3 +241,20 @@ Still sticking with science and Albert Einstein's E = MC<sup>2</sup>, which shou
 ### Variable Tag
 
 This allows you to denote <var>variables</var>.
+
+Python code block:
+```python
+    import numpy as np
+Multi line blockquote with a cite reference:
+
+    def test_function(x, y):
+      z = np.sum(x, y)
+      return z
+```
+
+R code block:
+```r
+library(tidyverse)
+df <- read_csv("some_file.csv")
+head(df)
+```
