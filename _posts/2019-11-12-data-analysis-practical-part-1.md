@@ -8,6 +8,6 @@ author_profile: false
 mathjax: "true"
 ---
 
-In this Practical Studies we will use the Anaconda Navigator with a Jupyter Lab to [compile](https://kb.iu.edu/d/agsz) our R scripts.
+In this Practical Studies we will use the Anaconda Navigator with a Jupyter Lab to *[compile](https://kb.iu.edu/d/agsz)* our R scripts.
 
 Follow these links to *[download](https://www.anaconda.com/distribution/)* and this to *[set up](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/)* your Jupyter Lab to compile R after you've installed the Anaconda Navigator. 
