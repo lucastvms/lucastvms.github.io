@@ -10,7 +10,9 @@ mathjax: "true"
 
 In this Practical Studies we will use the Anaconda Navigator with a Jupyter Lab to *[compile](https://kb.iu.edu/d/agsz)* our R scripts.
 
-Follow these links to *[download](https://www.anaconda.com/distribution/)* and this to *[set up](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/)* your Jupyter Lab to compile R after you've installed the Anaconda Navigator.
+*Instructions:*
+1. Follow the link to *[download](https://www.anaconda.com/distribution/)* and to *[set up](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/)* your Jupyter Lab to compile R after you've installed the Anaconda Navigator.
+2. Remember to [download](https://github.com/lucastvms/lucastvms.github.io/blob/master/assets/datasets/Developers.zip) the datasets, unzip and configure its path on the code.
 
 Here's our R script. You can download it *[here]()*.
 
@@ -188,7 +190,7 @@ executeSMO <- function(dataset, folds){
   })
 }
 
-####################################################### DCL Analysis ###################################################################
+### DCL Analysis ###
 
 techniques <- c("J48", "NaiveBayes", "SVM", "oneR", "JRip", "RandomForest", "SMO")
 
