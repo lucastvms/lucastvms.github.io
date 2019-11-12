@@ -15,7 +15,7 @@ Follow these links to *[download](https://www.anaconda.com/distribution/)* and t
 Here's our R script. You can download it *[here]()*.
 
 ```r
-####################################################### Load Library ###################################################################
+#### Load Library ###
 library(RWeka)
 library(e1071)
 library(gmodels)
@@ -24,7 +24,7 @@ library(caret)
 library(irr)
 library(randomForest)
 
-####################################################### Functions ###################################################################
+### Functions ###
 
 # Precision
 precision <- function(tp, fp){
@@ -76,7 +76,7 @@ measures <- function(test, pred){
   return(measures)
 }
 
-####################################################### Techniques ###################################################################
+### Techniques ###
 
 executeJ48 <- function(dataset, folds){
   results <- lapply(folds, function(x) {
