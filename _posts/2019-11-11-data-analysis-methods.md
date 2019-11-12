@@ -16,7 +16,7 @@ As promised we will talk about each of the data analysis' methods presented in t
 Data mining is a method of data analysis for discovering patterns in large data sets using the methods of statistics, artificial intelligence, machine learning and databases. The goal is to transform raw data into understandable business information. These might include identifying groups of data records (also known as cluster analysis), or identifying anomolies and dependencies between data groups.
 
 Applications of data mining:
-* Anomoly detection can process huge amounts of data (“big data”) and automatically identify outlier cases, possibly for exclusion from decision making or detection of fraud (e.g. bank fraud).
+* Anomaly detection can process huge amounts of data (“big data”) and automatically identify outlier cases, possibly for exclusion from decision making or detection of fraud (e.g. bank fraud).
 * Learning customer purchase habits. Machine learning techniques can be used to model customer purchase habits and determine frequently bought items.
 * Clustering can identify previously unknown groups within the data.
 * Classification is used to automatically classify data entries into pre-specified bins. A common example is classifying email messages as “spam” or “not-spam” and having the system learn from the user.
