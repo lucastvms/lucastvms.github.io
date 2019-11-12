@@ -15,7 +15,7 @@ There are multiple facets and approaches with diverse techniques for data analys
 
 Business intelligence covers the data analysis that run heavely on aggregation, disaggregation, slicing and dicing, fosusing on the business information. Predictive analytics is the application of statistical or structural models for predictive forecasting. Text analytics is the application of statistical, linguistic, and structural models to extract and classify information from texts.
 
-*Steps of Data Analysis (Next Post):*
+*Steps of Data Analysis:*
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-analysis/steps.png)
 
 ## How is Data Analysis Performed?
