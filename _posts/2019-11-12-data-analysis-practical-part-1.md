@@ -326,16 +326,16 @@ Let's begin our studies about the code.
 
 ## Libraries
 
-### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*: An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
+##### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*: An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
 
-### *[E1071](https://cran.r-project.org/web/packages/e1071/index.html)*: Functions for latent class analysis, short time Fourier transform, fuzzy clustering, support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, ...
+##### *[E1071](https://cran.r-project.org/web/packages/e1071/index.html)*: Functions for latent class analysis, short time Fourier transform, fuzzy clustering, support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, ...
 
-### *[GModels](https://cran.r-project.org/web/packages/gmodels/index.html)*: Various R programming tools for model fitting.
+##### *[GModels](https://cran.r-project.org/web/packages/gmodels/index.html)*: Various R programming tools for model fitting.
 
-### *[C50](https://cran.r-project.org/web/packages/C50/index.html)*: A C5.0 decision trees and rulebased models for pattern recognition that extend the work of Quinlan (1993, ISBN:1-55860-238-0).
+##### *[C50](https://cran.r-project.org/web/packages/C50/index.html)*: A C5.0 decision trees and rulebased models for pattern recognition that extend the work of Quinlan (1993, ISBN:1-55860-238-0).
 
-### *[Caret](https://cran.r-project.org/web/packages/caret/index.html)*: Misc functions for training and plotting classification and regression models.
+##### *[Caret](https://cran.r-project.org/web/packages/caret/index.html)*: Misc functions for training and plotting classification and regression models.
 
-### *[IRR](https://cran.r-project.org/web/packages/irr/index.html)*: Coefficients of Interrater Reliability and Agreement for quantitative, ordinal and nominal data: ICC, Finn-Coefficient, Robinson's A, Kendall's W, Cohen's Kappa, ...
+##### *[IRR](https://cran.r-project.org/web/packages/irr/index.html)*: Coefficients of Interrater Reliability and Agreement for quantitative, ordinal and nominal data: ICC, Finn-Coefficient, Robinson's A, Kendall's W, Cohen's Kappa, ...
 
-### *[randomForest](https://cran.r-project.org/web/packages/randomForest/index.html)*:Classification and regression based on a forest of trees using random inputs, based on Breiman (2001) [<doi:10.1023A:1010933404324>](https://link.springer.com/article/10.1023%2FA%3A1010933404324).
+##### *[randomForest](https://cran.r-project.org/web/packages/randomForest/index.html)*: Classification and regression based on a forest of trees using random inputs, based on Breiman (2001) [<doi:10.1023A:1010933404324>](https://link.springer.com/article/10.1023%2FA%3A1010933404324).
