@@ -326,7 +326,8 @@ Let's begin our studies about the code.
 
 ## Libraries
 
-##### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*: An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
+#### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*:
+##### An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
 
 ##### *[E1071](https://cran.r-project.org/web/packages/e1071/index.html)*: Functions for latent class analysis, short time Fourier transform, fuzzy clustering, support vector machines, shortest path computation, bagged clustering, naive Bayes classifier, ...
 
