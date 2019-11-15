@@ -324,6 +324,17 @@ barplot(results_mean,
 
 Let's begin our studies about the code.
 
+```r
+#### Load Library ###
+library(RWeka)
+library(e1071)
+library(gmodels)
+#library(C50)
+library(caret)
+library(irr)
+library(randomForest)
+```
+
 ## Libraries
 
 ### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*:
@@ -346,3 +357,75 @@ Let's begin our studies about the code.
 
 ### *[randomForest](https://cran.r-project.org/web/packages/randomForest/index.html)*:
 ##### Classification and regression based on a forest of trees using random inputs, based on Breiman (2001) <[doi:10.1023A:1010933404324](https://link.springer.com/article/10.1023%2FA%3A1010933404324)>.
+
+## Functions
+
+### [Precision](https://www.rdocumentation.org/packages/MLmetrics/versions/1.1.1/topics/Precision):
+##### The precision can answer the following question: What proportion of positive identifications was actually correct?, then we can define precision as follows.
+
+```r
+# Precision
+precision <- function(tp, fp){
+
+  precision <- tp/(tp+fp)
+
+  return(precision)
+}
+```
+
+### [Recall](https://www.rdocumentation.org/packages/caret/versions/6.0-84/topics/recall):
+##### The recall can answer the following question: What proportion of actual positives was identified correctly?, then we can define recall as follows.
+
+```r
+# Recall
+recall <- function(tp, fn){
+
+  recall <- tp/(tp+fn)
+
+  return(recall)
+}
+```
+
+### [F - Measure](https://www.rdocumentation.org/packages/PerfMeas/versions/1.2.1/topics/F.measures):
+##### F-Measure is a measure of a test’s accuracy, and we can define as follows.
+
+```r
+# F-measure
+f_measure <- function(tp, fp, fn){
+
+  f_measure <- (2*precision(tp,fp)*recall(tp,fn))/(recall(tp,fn) + precision(tp, fp))
+
+  return(f_measure)
+}
+```
+
+### [Measures](https://www.rdocumentation.org/packages/Momocs/versions/1.2.9/topics/measure):
+##### Then, in information retrieval, the positive predictive value is called precision, and sensitivity is called recall. The F-score can be used as a single measure of performance of the test for the positive class. The F-score is the harmonic mean of precision and recall and we can define as follows.
+
+```r
+measures <- function(test, pred){
+
+  true_positive <- 0
+  true_negative <- 0
+  false_positive <- 0
+  false_negative <- 0
+
+  for(i in 1:length(pred)){
+    if(test[i] == TRUE && pred[i] == TRUE){
+      true_positive <- true_positive + 1
+    }else if(test[i] == FALSE && pred[i] == FALSE){
+      true_negative <- true_negative + 1
+    }else if(test[i] == FALSE && pred[i] == TRUE){
+      false_negative <- false_negative + 1
+    }else if(test[i] == TRUE && pred[i] == FALSE){
+      false_positive <- false_positive + 1
+    }
+  }
+
+  measures <- c(precision(true_positive,false_positive),
+                recall(true_positive,false_negative),
+                f_measure(true_positive,false_positive,false_negative))
+
+  return(measures)
+}
+```
