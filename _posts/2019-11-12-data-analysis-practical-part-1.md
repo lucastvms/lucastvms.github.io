@@ -18,6 +18,9 @@ In this Practical Studies we will use the Anaconda Navigator with a Jupyter Lab 
 Here's our *[R script](https://github.com/lucastvms/lucastvms.github.io/blob/master/assets/r-scripts/Effectiness.R)*:
 
 ```r
+### Installing the Libraries using a vector of its names ###
+install.packages(c("RWeka", "e1071", "gmodels", "C50", "caret", "irr", "randomForest"))
+
 ### Load Library ###
 library(RWeka)
 library(e1071)
@@ -320,7 +323,6 @@ barplot(results_mean,
         ylim = c(0, 1),
         #legend = rownames(results_mean),
         beside=TRUE)
-
 ```
 
 Let's begin our studies about the code.
