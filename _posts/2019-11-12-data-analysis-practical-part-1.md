@@ -433,7 +433,7 @@ measures <- function(test, pred){
 
 ### Techniques
 
-*Example:*
+##### *Example:*
 ```r
 executeJ48 <- function(dataset, folds){
   results <- lapply(folds, function(x) {
@@ -449,6 +449,6 @@ executeJ48 <- function(dataset, folds){
 
 }
 ```
-*Notice the attribution to model*
+*Notice the attribution to **model** *
 
 ##### In this section we run a lot of models to evaluate data using functions of our different libraries. Notice that each of them representes a different techinque (model).
