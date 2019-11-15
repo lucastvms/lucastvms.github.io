@@ -17,7 +17,7 @@ In this Practical Studies we will use the Anaconda Navigator with a Jupyter Lab 
 Here's our *[R script](https://github.com/lucastvms/lucastvms.github.io/blob/master/assets/r-scripts/Effectiness.R)*:
 
 ```r
-#### Load Library ###
+### Load Library ###
 library(RWeka)
 library(e1071)
 library(gmodels)
@@ -324,8 +324,10 @@ barplot(results_mean,
 
 Let's begin our studies about the code.
 
+## Libraries
+
 ```r
-#### Load Library ###
+### Load Library ###
 library(RWeka)
 library(e1071)
 library(gmodels)
@@ -334,8 +336,6 @@ library(caret)
 library(irr)
 library(randomForest)
 ```
-
-## Libraries
 
 ### *[RWeka](https://cran.r-project.org/web/packages/RWeka/index.html)*:
 ##### An R interface to Weka. Weka is a collection of machine learning algorithms for data mining tasks written in Java, containing tools for data pre-processing, classification, regression, clustering, association rules, and visualization.
@@ -361,8 +361,6 @@ library(randomForest)
 ## Functions
 
 ### [Precision](https://www.rdocumentation.org/packages/MLmetrics/versions/1.1.1/topics/Precision):
-##### The precision can answer the following question: What proportion of positive identifications was actually correct?, then we can define precision as follows.
-
 ```r
 # Precision
 precision <- function(tp, fp){
@@ -373,9 +371,9 @@ precision <- function(tp, fp){
 }
 ```
 
-### [Recall](https://www.rdocumentation.org/packages/caret/versions/6.0-84/topics/recall):
-##### The recall can answer the following question: What proportion of actual positives was identified correctly?, then we can define recall as follows.
+##### The precision can answer the following question: What proportion of positive identifications was actually correct?, then we can define precision as follows.
 
+### [Recall](https://www.rdocumentation.org/packages/caret/versions/6.0-84/topics/recall):
 ```r
 # Recall
 recall <- function(tp, fn){
@@ -386,9 +384,9 @@ recall <- function(tp, fn){
 }
 ```
 
-### [F - Measure](https://www.rdocumentation.org/packages/PerfMeas/versions/1.2.1/topics/F.measures):
-##### F-Measure is a measure of a test’s accuracy, and we can define as follows.
+##### The recall can answer the following question: What proportion of actual positives was identified correctly?, then we can define recall as follows.
 
+### [F - Measure](https://www.rdocumentation.org/packages/PerfMeas/versions/1.2.1/topics/F.measures):
 ```r
 # F-measure
 f_measure <- function(tp, fp, fn){
@@ -399,9 +397,10 @@ f_measure <- function(tp, fp, fn){
 }
 ```
 
-### [Measures](https://www.rdocumentation.org/packages/Momocs/versions/1.2.9/topics/measure):
-##### Then, in information retrieval, the positive predictive value is called precision, and sensitivity is called recall. The F-score can be used as a single measure of performance of the test for the positive class. The F-score is the harmonic mean of precision and recall and we can define as follows.
+##### F-Measure is a measure of a test’s accuracy, and we can define as follows.
 
+
+### [Measures](https://www.rdocumentation.org/packages/Momocs/versions/1.2.9/topics/measure):
 ```r
 measures <- function(test, pred){
 
@@ -429,3 +428,5 @@ measures <- function(test, pred){
   return(measures)
 }
 ```
+
+##### Then, in information retrieval, the positive predictive value is called precision, and sensitivity is called recall. The F-score can be used as a single measure of performance of the test for the positive class. The F-score is the harmonic mean of precision and recall and we can define as follows.
