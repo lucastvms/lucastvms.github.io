@@ -371,7 +371,7 @@ precision <- function(tp, fp){
 }
 ```
 
-##### The precision can answer the following question: What proportion of positive identifications was actually correct?, then we can define precision as follows.
+##### The precision can answer the following question: What proportion of positive identifications was actually correct?.
 
 ### [Recall](https://www.rdocumentation.org/packages/caret/versions/6.0-84/topics/recall):
 ```r
@@ -384,7 +384,7 @@ recall <- function(tp, fn){
 }
 ```
 
-##### The recall can answer the following question: What proportion of actual positives was identified correctly?, then we can define recall as follows.
+##### The recall can answer the following question: What proportion of actual positives was identified correctly?.
 
 ### [F - Measure](https://www.rdocumentation.org/packages/PerfMeas/versions/1.2.1/topics/F.measures):
 ```r
@@ -397,7 +397,7 @@ f_measure <- function(tp, fp, fn){
 }
 ```
 
-##### F-Measure is a measure of a test’s accuracy, and we can define as follows.
+##### F-Measure is a measure of a test’s accuracy.
 
 
 ### [Measures](https://www.rdocumentation.org/packages/Momocs/versions/1.2.9/topics/measure):
@@ -429,4 +429,26 @@ measures <- function(test, pred){
 }
 ```
 
-##### Then, in information retrieval, the positive predictive value is called precision, and sensitivity is called recall. The F-score can be used as a single measure of performance of the test for the positive class. The F-score is the harmonic mean of precision and recall and we can define as follows.
+##### Then, in information retrieval, the positive predictive value is called precision, and sensitivity is called recall. The F-score can be used as a single measure of performance of the test for the positive class. The F-score is the harmonic mean of precision and recall.
+
+### Techniques
+
+*Example:*
+```r
+executeJ48 <- function(dataset, folds){
+  results <- lapply(folds, function(x) {
+    train <- dataset[-x, ]
+    test <- dataset[x, ]
+    model <- J48(train$Smell~ ., data = train)
+    pred <- predict(model, test)
+
+    results <- measures(test$Smell, pred)
+
+    return(results)
+  })
+
+}
+```
+*Notice the attribution to model*
+
+##### In this section we run a lot of models to evaluate data using functions of our different libraries. Notice that each of them representes a different techinque (model).
