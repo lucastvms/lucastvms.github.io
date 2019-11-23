@@ -59,8 +59,6 @@ library(randomForest)
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-analysis/confusion-matrix.png)
 
-*Source: [GeeksforGeeks](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/)*
-
 Where,
 * Class 1 : Positive
 * Class 2 : Negative
