@@ -1,4 +1,7 @@
-####################################################### Load Library ###################################################################
+### Installing the Libraries ###
+install.packages(c("RWeka", "e1071", "gmodels", "C50", "caret", "irr", "randomForest"))
+
+### Load Library ###
 library(RWeka)
 library(e1071)
 library(gmodels)
@@ -7,7 +10,7 @@ library(caret)
 library(irr)
 library(randomForest)
 
-####################################################### Functions ###################################################################
+### Functions ###
 
 # Precision
 precision <- function(tp, fp){
@@ -59,7 +62,7 @@ measures <- function(test, pred){
   return(measures)
 }
 
-####################################################### Techniques ###################################################################
+### Techniques ###
 
 executeJ48 <- function(dataset, folds){
   results <- lapply(folds, function(x) {
@@ -107,7 +110,7 @@ executeSVM <- function(dataset, folds){
   results <- lapply(folds, function(x) {
     train <- dataset[-x, ]
     test <- dataset[x, ]
-    model <- svm(train$Smell~ ., data = train)
+    model <- svm(train$Smell~ ., data = train, scale = FALSE)
     pred <- predict(model, test)
 
     results <- measures(test$Smell, pred)
@@ -171,7 +174,7 @@ executeSMO <- function(dataset, folds){
   })
 }
 
-####################################################### DCL Analysis ###################################################################
+### DCL Analysis ###
 
 techniques <- c("J48", "NaiveBayes", "SVM", "oneR", "JRip", "RandomForest", "SMO")
 
@@ -200,7 +203,7 @@ for(j in 1:10){
 
   print(colnames(developers)[j])
 
-  path <- paste("/Users/baldoino/Dropbox/Professional/Courses/Master/Aulas/12-Dez-2018/Developers/",colnames(developers)[j],"/",colnames(developers)[j]," - ",sep="")
+  path <- paste("C:/Users/Lucas/Documents/GitHub/lucastvms.github.io/assets/datasets/Developers/",colnames(developers)[j],"/",colnames(developers)[j]," - ",sep="")
 
   results <- data.frame(0,0,0, 0, 0,0,0)
 
