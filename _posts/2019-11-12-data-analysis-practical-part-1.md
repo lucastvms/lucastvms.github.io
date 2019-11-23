@@ -58,6 +58,7 @@ library(randomForest)
 ##### Our Functions are based in the theory of the *[Confusion Matrix](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/)*:
 
 ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/data-analysis/confusion-matrix.png)
+*Source: [GeeksforGeeks](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/)*
 
 Where,
 * Class 1 : Positive
